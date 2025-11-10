@@ -1,6 +1,7 @@
-# Face Mask Detection Project
+# Real Time Face Mask Detection
 
-## 📋 Project Description
+## 🎥 Demo
+[![Demo Video](Demo/RealTime.gif)](Demo/RealTime.mp4)
 
 This project implements a computer vision system that detects faces in images and classifies them into three categories: **with_mask**, **without_mask**, and **mask_incorrect**. Using transfer learning with MobileNetV2, the model achieves real-time face mask detection capabilities.
 
@@ -31,24 +32,6 @@ This project implements a computer vision system that detects faces in images an
 ### Training
 - **Epochs**: 10
 - **Batch Size**: 32
-- **Data Split**: 80% training, 20% testing
 - **Augmentation**: Rotation, zoom, shifts, shear, and horizontal flip
 
-## 📊 Results
-
-The model provides classification with performance metrics including:
-- Accuracy scores
-- Precision, Recall, F1-score
-- Confusion matrix visualization
-
-## 🎯 Applications
-
-- Public health monitoring
-- Entry control systems
-- Smart surveillance
-- COVID-19 safety compliance
-
----
-
-**Short Description**:  
-A deep learning-based face mask detection system that classifies people into three categories: properly masked, unmasked, and incorrectly masked, using computer vision and transfer learning techniques for real-time monitoring applications.
+## ⭐ Don't forget to star this repository if you find it helpful!
